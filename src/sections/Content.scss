@@ -1,0 +1,35 @@
+@import "../resources/colors.scss";
+
+.content {
+  height: 650px;
+
+  .box-bg {
+    bottom: 0px;
+    right: -1px;
+    .background-1 {
+      bottom: 0;
+      right: 0;
+    }
+    .bgStars {
+      bottom: 17px;
+      right: 8px;
+    }
+    .bgPlaneta {
+      bottom: 130px;
+      right: 80px;
+      width: 100px;
+    }
+    .bgCohete {
+      bottom: 510px;
+      right: 100px;
+      transform: rotateY(180deg);
+      width: 130px;
+    }
+    .bgAstronner {
+      bottom: 220px;
+      right: -70px;
+      transform: rotateY(180deg) rotateZ(45deg);
+      width: 200px;
+    }
+  }
+}
